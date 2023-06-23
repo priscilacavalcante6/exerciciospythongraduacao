@@ -1,4 +1,4 @@
-# EXERCÍCIOS PYTHON ORIENTADO A OBJETOS
+# EXERCÍCIOS PYTHON ORIENTADO A OBJETOS-2
 
 
 class Conta():
@@ -30,15 +30,3 @@ class Conta():
             contaDestino.depositar(valor)
             self.saldo -= valor
         return("Transferencia Realizada")
-
-    
-def main():
-    c1 = Conta (1, 1, "Joao", 0)             
-    c1 = depositar(300)
-    saque = c1.sacar(400)
-    c1.gerar_extrato()
-    print(f"O saque foi realizado? {saque}")
-    
-    
-if __name__ == " __main__ ":
-    main()
